@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="guli-video" />
+        <module name="guli-weibo" />
+        <module name="hbase-test" />
+        <module name="Sparkym" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bigData" target="1.8" />
+      <module name="guli-video" target="1.8" />
+      <module name="guli-weibo" target="1.8" />
+      <module name="hbase-test" target="1.8" />
+      <module name="mr" target="1.5" />
+      <module name="spark" target="1.5" />
+      <module name="Sparkym" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
